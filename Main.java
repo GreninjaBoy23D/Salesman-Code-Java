@@ -17,12 +17,22 @@ public class Main
 	    int r3 = rand.nextInt(1000);
 	    int r4 = rand.nextInt(1000);
 	    int r5 = rand.nextInt(1000);
+	    int r6 = rand.nextInt(1000);
+	    int r7 = rand.nextInt(1000);
+	    int r8 = rand.nextInt(1000);
+	    int r9 = rand.nextInt(1000);
+	    int r0 = rand.nextInt(1000);
 		Salesman blade = new Salesman("Blade", r1);
 		Salesman jenny = new Salesman("Jenny", r2);
 		Salesman alfred = new Salesman("Alfred", r3);
 		Salesman mary = new Salesman("Mary", r4);
-		Salesman wade = new Salesman("Wade", r5);
-		Salesman[] top = new Salesman[]{blade, jenny, alfred, mary, wade};
+		Salesman jerry = new Salesman("Jerry", r5);
+		Salesman wade = new Salesman("Wade", r6);
+		Salesman jason = new Salesman("Jason", r7);
+		Salesman conner = new Salesman("Conner", r8);
+		Salesman hilda = new Salesman("Hilda", r9);
+		Salesman celia = new Salesman("Celia", r0);
+		Salesman[] top = new Salesman[]{blade, jenny, alfred, mary, jerry, wade, jason, conner, hilda, celia};
 		Salesman[] five = Salesman.topFive(top);
 		for (int i = 0; i < 5; i++)
 		{
